@@ -92,10 +92,10 @@ class RowType
 
 class CCell
 {
-	const COLOR_NO_I_CANT = "FF6600"; // FF8080
-	const COLOR_YES_I_CAN = "99CC00"; // 80FF80
-	const COLOR_USER = "6666FF"; // E0EFEF
-	const COLOR_HEADER = "0099FF"; // E0EFEF
+	const COLOR_NO_I_CANT = "F8CC92"; // FF8080
+	const COLOR_YES_I_CAN = "A9DC82"; // 80FF80
+	const COLOR_USER = "F8EF92"; // E0EFEF
+	const COLOR_HEADER = "DDDDDD"; // E0EFEF
 
 	private $m_Content = "";
 	private $m_Color = "";
