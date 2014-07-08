@@ -6,8 +6,10 @@ class HTMLOut
 
   public function GetHeader($Title)
   {
-    $Header = "<html xmlns='http://www.w3.org/1999/xhtml'>\n<head>\n<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>\n
-          <title>" . $Title . "</title>\n<LINK REL=\"StyleSheet\" HREF=\"style.css\" TYPE=\"text/css\">\n</head>\n<body>";
+    $Header = "<html xmlns='http://www.w3.org/1999/xhtml'>\n<head>\n<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>\n"
+             ."<link rel=\"shortcut icon\" href=\"index.ico\" type=\"image/x-icon\"/>\n"
+             ."<link rel=\"icon\" href=\"index.ico\" type=\"image/x-icon\"/>\n"
+             ."<title>" . $Title . "</title>\n<LINK REL=\"StyleSheet\" HREF=\"style.css\" TYPE=\"text/css\">\n</head>\n<body>";
 
     return $Header;
   }
